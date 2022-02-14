@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.mytraining">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.media.action.IMAGE_CAPTURE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTraining">
+        <activity
+            android:name=".ui.activity.DetalhesExercicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.DetalhesTreinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.CadastroExercicioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activity.CadastroTreinoActivity"
+            android:exported="false" />
+        <activity android:name=".ui.activity.VisualizarImagemActivity" />
+        <activity
+            android:name=".ui.activity.InicioActivity"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.MyTraining.NoActionBar" />
+        <activity android:name=".ui.activity.VerifiqueEmailActivity" />
+        <activity android:name=".ui.activity.CadastroUsuarioActivity" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

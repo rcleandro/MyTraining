@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882218395918",
+    "project_id": "mytraining-77134",
+    "storage_bucket": "mytraining-77134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882218395918:android:6f12171149d3a8d2ae8f5f",
+        "android_client_info": {
+          "package_name": "br.com.mytraining"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882218395918-ni611mr30g529cn2j9kkg0d6qqim022g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoJrn2FC6JXpm5AWgiWE9hehEULVqLeSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882218395918-ni611mr30g529cn2j9kkg0d6qqim022g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
